@@ -6,6 +6,7 @@ from flask_restx import Resource
 from apps.home.empresas import empresalib
 from apps.home.libs.chat import chats
 from apps.home.libs.api_models import apiModels
+from apps.home.libs.classifiers.figures_of_speech import figures_of_speech
 
 
 
@@ -179,6 +180,26 @@ class BasicChatMaritalk(Resource):
     def post(self):
         data = basicMaritalkChat.parse_args()
         resposta = chats.basicMaritalk(data['user'])
+        return resposta, 200
+    #############################################
+    
+
+##########################################################################################
+
+
+#####################################################################################
+@api.route('/api/maritalk-irony-classifier')
+class MaritalkIronyClassifier(Resource):
+    
+    ##########################################    
+    @api.doc(description="Classificador de ironias usando o modelo LLM Maritalk. Entrada: texto a ser classificado. Saida: 'sim' para ironia e 'nao' para não ironias.")
+    @api.doc(parser=basicMaritalkChat)
+
+    @api.response(200, 'Sucesso.')
+
+    def post(self):
+        data = basicMaritalkChat.parse_args()
+        resposta = figures_of_speech.maritalk_irony_classifier(data['user'])
         return resposta, 200
     #############################################
     
