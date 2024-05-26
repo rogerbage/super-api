@@ -193,13 +193,13 @@ class MaritalkIronyClassifier(Resource):
     
     ##########################################    
     @api.doc(description="Classificador de ironias usando o modelo LLM Maritalk. Entrada: texto a ser classificado. Saida: 'sim' para ironia e 'nao' para não ironias.")
-    @api.doc(parser=basicMaritalkChat)
+    @api.doc(parser=apiModels.ironyClassifier())
 
     @api.response(200, 'Sucesso.')
 
     def post(self):
-        data = basicMaritalkChat.parse_args()
-        resposta = figures_of_speech.maritalk_irony_classifier(data['user'])
+        data = apiModels.ironyClassifier().parse_args()
+        resposta = figures_of_speech.maritalk_irony_classifier(data['phrase'])
         return resposta, 200
     #############################################
     

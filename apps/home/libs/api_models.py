@@ -15,3 +15,10 @@ class apiModels:
         model.add_argument('user', type=str, help='Your prompt, question, requiriment, etc. Max.: 4096 caracteres')
         return model
     #####################################################################
+
+        #####################################################################
+    def ironyClassifier():
+        model = reqparse.RequestParser()
+        model.add_argument('phrase', type=str, help='Your phrase to be classified.')
+        return model
+    #####################################################################
