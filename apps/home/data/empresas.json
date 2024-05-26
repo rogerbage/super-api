@@ -1,0 +1,1618 @@
+{
+   "empresas": [
+      {
+         "nome": "3R PETROLEUM ÓLEO E GÁS S.A",
+         "codigos": "RRRP3",
+         "cnpj": "12.091.809/0001-55",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "AERIS INDÚSTRIA E COMÉRCIO DE EQUIPAMENTOS DE GERAÇÃO DE ENERGIA S/A",
+         "codigos": "AERI3",
+         "cnpj": "12.528.708/0001-07",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "AES BRASIL ENERGIA S.A.",
+         "codigos": "AESB3",
+         "cnpj": "37.663.076/0001-07",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "AGROGALAXY PARTICIPAÇÕES S.A.",
+         "codigos": "AGXY3",
+         "cnpj": "21.240.146/0001-84",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ALIANSCE SONAE SHOPPING CENTERS S.A.",
+         "codigos": "ALSO3",
+         "cnpj": "05.878.397/0001-32",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ALLIED TECNOLOGIA S.A.",
+         "codigos": "ALLD3",
+         "cnpj": "20.247.322/0001-47",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ALLPARK EMPREENDIMENTOS PARTICIPAÇÕES SERVIÇOS S.A.",
+         "codigos": "ALPK3, ALPK9",
+         "cnpj": "60.537.263/0001-66",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "ALPARGATAS S.A.",
+         "codigos": "ALPA3, ALPA4",
+         "cnpj": "61.079.117/0001-05",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ALPER CONSULTORIA E CORRETORA DE SEGUROS S.A.",
+         "codigos": "APER3",
+         "cnpj": "11.721.921/0001-60",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ALPHAVILLE S.A.",
+         "codigos": "AVLL3, AVLL11",
+         "cnpj": "16.811.931/0001-00",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "ALUPAR INVESTIMENTO S/A",
+         "codigos": "ALUP3, ALUP4, ALUP11",
+         "cnpj": "08.364.948/0001-38",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "AMBEV S/A",
+         "codigos": "ABEV3",
+         "cnpj": "07.526.557/0001-00",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "AMBIPAR PARTICIPAÇÕES E EMPREENDIMENTOS S/A",
+         "codigos": "AMBP3",
+         "cnpj": "12.648.266/0001-24",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "AMERICANAS S.A.",
+         "codigos": "AMER3",
+         "cnpj": "00.776.574/0001-56",
+         "banco_estruturador": "ITAÚ UNIBANCO S.A."
+      },
+      {
+         "nome": "ANIMA HOLDING S.A.",
+         "codigos": "ANIM3",
+         "cnpj": "09.288.252/0001-32",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "AREZZO INDÚSTRIA E COMÉRCIO S.A.",
+         "codigos": "ARZZ3",
+         "cnpj": "16.590.234/0001-76",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ARMAC LOCAÇÃO, SERVIÇOS E SERVIÇOS S.A.",
+         "codigos": "ARML3",
+         "cnpj": "00.242.184/0001-04",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ATACADÃO S.A.",
+         "codigos": "CRFB3",
+         "cnpj": "75.315.333/0001-09",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ATMA PARTICIPAÇÕES S.A.",
+         "codigos": "ATMP3",
+         "cnpj": "04.032.433/0001-80",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "AURA MINERALS INC.",
+         "codigos": "AURA33",
+         "cnpj": "07.857.093/0001-14",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "AZEVEDO E TRAVASSOS S.A.",
+         "codigos": "AZEV3, AZEV4, AZEV11",
+         "cnpj": "61.351.532/0001-68",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "AZUL S.A.",
+         "codigos": "AZUL4",
+         "cnpj": "09.305.994/0001-29",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "B3 S.A. – BRASIL, BOLSA, BALCÃO",
+         "codigos": "B3SA3",
+         "cnpj": "09.346.601/0001-25",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "BANCO ABC BRASIL S.A.",
+         "codigos": "ABCB4",
+         "cnpj": "28.195.667/0001-06",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BANCO BTG PACTUAL S.A.",
+         "codigos": "BPAC3, BPAC5, BPAC11",
+         "cnpj": "30.306.294/0001-45",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "BANCO BRADESCO S.A.",
+         "codigos": "BBDC3, BBDC4",
+         "cnpj": "60.746.948/0001-12",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "BANCO DO BRASIL S.A.",
+         "codigos": "BBAS11, BBAS12, BBAS3",
+         "cnpj": "00.000.000/0001-91",
+         "banco_estruturador": "BANCO DO BRASIL"
+      },
+      {
+         "nome": "BANCO DO ESTADO DO RIO GRANDE DO SUL S.A.",
+         "codigos": "BRSR3, BRSR5, BRSR6",
+         "cnpj": "92.702.067/0001-96",
+         "banco_estruturador": "BANRISUL"
+      },
+      {
+         "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+         "codigos": "BNBR3",
+         "cnpj": "07.237.373/0001-20",
+         "banco_estruturador": "BANCO DO NORDESTE DO BRASIL S.A."
+      },
+      {
+         "nome": "BANCO INTER S.A.",
+         "codigos": "BIDI3, BIDI4, BIDI11",
+         "cnpj": "00.416.968/0001-01",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "BANCO MERCANTIL DO BRASIL S.A.",
+         "codigos": "BMEB3, BMEB4",
+         "cnpj": "17.184.037/0001-10",
+         "banco_estruturador": "BANCO MERCANTIL DO BRASIL S.A."
+      },
+      {
+         "nome": "BANCO MODAL S.A.",
+         "codigos": "MODL3, MODL4, MODL11",
+         "cnpj": "30.723.886/0001-62",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BANCO PAN",
+         "codigos": "BPAN4",
+         "cnpj": "59.285.411/0001-13",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BANCO PINE S.A.",
+         "codigos": "PINE3, PINE4",
+         "cnpj": "62.144.175/0001-20",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+         "codigos": "BBSE3",
+         "cnpj": "17.344.597/0001-94",
+         "banco_estruturador": "BANCO DO BRASIL"
+      },
+      {
+         "nome": "BEMOBI MOBILE TECH S.A.",
+         "codigos": "BMOB3",
+         "cnpj": "09.042.817/0001-05",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BK BRASIL OPERAÇÕES E ASSESSORIA A RESTAURANTES SA",
+         "codigos": "BKBR3",
+         "cnpj": "13.574.594/0001-96",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BLAU FARMACÊUTICA S.A.",
+         "codigos": "BLAU3",
+         "cnpj": "58.430.828/0001-60",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BANCO BMG S.A.",
+         "codigos": "BMGB4",
+         "cnpj": "61.186.680/0001-74",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "BOA SAFRA SEMENTES S.A.",
+         "codigos": "SOJA3",
+         "cnpj": "10.807.374/0001-77",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BOA VISTA SERVIÇOS S.A.",
+         "codigos": "BOAS3",
+         "cnpj": "11.725.176/0001-27",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BOMBRIL S.A.",
+         "codigos": "BOBR3, BOBR4",
+         "cnpj": "50.564.053/0001-03",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "BR ADVISORY PARTNERS PARTICIPAÇÕES S.A.",
+         "codigos": "BRBI11",
+         "cnpj": "10.739.356/0001-03",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BR MALLS PARTICIPAÇÕES S.A.",
+         "codigos": "BRML3",
+         "cnpj": "06.977.745/0001-91",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BR PROPERTIES S.A.",
+         "codigos": "BRPR3",
+         "cnpj": "06.977.751/0001-49",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BRADESPAR S.A.",
+         "codigos": "BRAP3, BRAP4",
+         "cnpj": "03.847.461/0001-92",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "BRASIL BROKERS PARTICIPAÇÕES S.A.",
+         "codigos": "BBRK3",
+         "cnpj": "08.613.550/0001-98",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BRASILAGRO – COMPANHIA BRASILEIRA DE PROPRIEDADES AGRÍCOLAS",
+         "codigos": "AGRO3",
+         "cnpj": "07.628.528/0001-59",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BRASKEM S.A.",
+         "codigos": "BRKM3, BRKM5, BRKM6",
+         "cnpj": "42.150.391/0001-70",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BRF S.A.",
+         "codigos": "BRFS3",
+         "cnpj": "01.838.723/0001-27",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "BRISANET PARTICIPAÇÕES S.A.",
+         "codigos": "BRIT3",
+         "cnpj": "19.796.586/0001-70",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "CAIXA SEGURIDADE PARTICIPAÇÕES S.A.",
+         "codigos": "CXSE3",
+         "cnpj": "22.543.331/0001-00",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "CAMIL ALIMENTOS S.A.",
+         "codigos": "CAML3",
+         "cnpj": "64.904.295/0001-03",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "CCR S.A.",
+         "codigos": "CCRO3",
+         "cnpj": "02.846.056/0001-97",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "C&A MODAS S.A.",
+         "codigos": "CEAB3",
+         "cnpj": "45.242.914/0001-05",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "CENTRAIS ELÉTRICAS BRASILEIRAS S.A. – ELETROBRAS",
+         "codigos": "ELET3, ELET5, ELET6",
+         "cnpj": "00.001.180/0001-26",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "CENTRAIS ELÉTRICAS DE SANTA CATARINA S.A.",
+         "codigos": "CLSC3, CLSC4",
+         "cnpj": "83.878.892/0001-55",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "CENTRO DE IMAGEM DIAGNÓSTICOS S.A.",
+         "codigos": "AALR3",
+         "cnpj": "42.771.949/0001-35",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "CIA SIDERURGICA NACIONAL",
+         "codigos": "CSNA3",
+         "cnpj": "33.042.730/0001-04",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "CIA FERRO LIGAS DA BAHIA – FERBASA",
+         "codigos": "FESA3, FESA4",
+         "cnpj": "15.141.799/0001-03",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "CIA GAS DE SAO PAULO – COMGAS",
+         "codigos": "CGAS3, CGAS5",
+         "cnpj": "61.856.571/0001-17",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "CIELO S.A.",
+         "codigos": "CIEL3",
+         "cnpj": "01.027.058/0001-91",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "CLEAR SALE S.A.",
+         "codigos": "CLSA3",
+         "cnpj": "03.802.115/0001-98",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "CM HOSPITALAR S.A.",
+         "codigos": "VVEO3",
+         "cnpj": "12.420.164/0001-57",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "COGNA EDUCAÇÃO S.A.",
+         "codigos": "COGN3",
+         "cnpj": "02.800.026/0001-40",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "COMPANHIA BRASILEIRA DE ALUMÍNIO",
+         "codigos": "CBAV3",
+         "cnpj": "61.409.892-0001-73",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "COMPANHIA BRASILEIRA DE DISTRIBUIÇÃO",
+         "codigos": "PCAR3",
+         "cnpj": "47.508.411/0001-56",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO",
+         "codigos": "SBSP3",
+         "cnpj": "43.776.517/0001-80",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "COMPANHIA DE SANEAMENTO DE MINAS GERAIS – COPASA MG",
+         "codigos": "CSMG3",
+         "cnpj": "17.281.106/0001-03",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "COMPANHIA DE SANEAMENTO DO PARANÁ – SANEPAR",
+         "codigos": "SAPR3, SAPR4, SAPR11",
+         "cnpj": "76.484.013/0001-45",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "COMPANHIA ENERGÉTICA DE MINAS GERAIS – CEMIG",
+         "codigos": "CMIG3, CMIG4",
+         "cnpj": "17.155.730/0001-64",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "COMPANHIA ENERGÉTICA DE SÃO PAULO – CESP",
+         "codigos": "CESP3, CESP5, CESP6",
+         "cnpj": "60.933.603/0001-78",
+         "banco_estruturador": "ITAUBANCO – AÇÕES"
+      },
+      {
+         "nome": "COMPANHIA ESTADUAL DE TRANSMISSÃO DE ENERGIA ELÉTRICA – CEEE-T",
+         "codigos": "EEEL3, EEEL4",
+         "cnpj": "92.715.812/0001-31",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "COMPANHIA FIAÇÃO TECIDOS CEDRO CACHOEIRA",
+         "codigos": "CEDO3, CEDO4",
+         "cnpj": "17.245.234/0001-00",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "COMPANHIA LOCAÇÃO DAS AMÉRICAS",
+         "codigos": "LCAM3",
+         "cnpj": "10.215.988/0001-60",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "COMPANHIA PARAENSE DE ENERGIA – COPEL",
+         "codigos": "CPLE3, CPLE5, CPLE6, CPLE11",
+         "cnpj": "76.483.817/0001-20",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "COMPANHIA TRANSMISSÃO DE ENERGIA ELÉTRICA PAULISTA",
+         "codigos": "TRPL3, TRPL4",
+         "cnpj": "02.998.611/0001-04",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "CONSTRUTORA TENDA S.A.",
+         "codigos": "TEND3",
+         "cnpj": "71.476.527/0001-35",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "COSAN S.A.",
+         "codigos": "CSAN3",
+         "cnpj": "50.746.577/0001-15",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "CPFL ENERGIA S.A.",
+         "codigos": "CPFE3",
+         "cnpj": "02.429.144/0001-93",
+         "banco_estruturador": "BANCO DO BRASIL"
+      },
+      {
+         "nome": "CRUZEIRO DO SUL EDUCACIONAL S.A.",
+         "codigos": "CSED3",
+         "cnpj": "62.984.091/0001-02",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "CSN MINERAÇÃO S.A.",
+         "codigos": "CMIN3",
+         "cnpj": "08.902.291/0001-15",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "CSU CARDSYSTEM S.A.",
+         "codigos": "CARD3",
+         "cnpj": "01.896.779/0001-38",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "CURY CONSTRUTORA E INCORPORADORA S.A.",
+         "codigos": "CURY3",
+         "cnpj": "08.797.760/0001-83",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "CVC BRASIL OPERADORA E AGÊNCIA DE VIAGENS S.A.",
+         "codigos": "CVCB3",
+         "cnpj": "10.760.260/0001-19",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "CYRELA BRAZIL REALTY S.A. EMPREENDIMENTOS E PARTICIPAÇÕES",
+         "codigos": "CYRE3",
+         "cnpj": "73.178.600/0001-18",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "D1000 VAREJO FARMA PARTICIPAÇÕES S.A.",
+         "codigos": "DMVF3",
+         "cnpj": "12.108.897/0001-50",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "DESKTOP – SIGMANET COMUNICAÇÃO MULTIMÍDIA S.A.",
+         "codigos": "DESK3",
+         "cnpj": "08.170.849/0001-15",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "DEXCO S.A.",
+         "codigos": "DXCO3",
+         "cnpj": "97.837.181/0001-47",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "DEXXOS PARTICIPAÇÕES S.A.",
+         "codigos": "DEXP3, DEXP4",
+         "cnpj": "02.193.750/0001-52",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "DIAGNÓSTICOS DA AMÉRICA S.A.",
+         "codigos": "DASA3",
+         "cnpj": "61.486.650/0001-83",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "DIMED S.A. DISTRIBUIDORA DE MEDICAMENTOS",
+         "codigos": "PNVL3",
+         "cnpj": "92.665.611/0001-77",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "DIRECIONAL ENGENHARIA S.A.",
+         "codigos": "DIRR3",
+         "cnpj": "16.614.075/0001-00",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "DOTZ S.A.",
+         "codigos": "DOTZ3",
+         "cnpj": "18.174.270/0001-84",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ECORODOVIAS INFRAESTRUTURA E LOGÍSTICA S.A.",
+         "codigos": "ECOR3",
+         "cnpj": "04.149.454/0001-80",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "EDP – ENERGIAS DO BRASIL S.A.",
+         "codigos": "ENBR3",
+         "cnpj": "03.983.431/0001-03",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ELETROMIDIA S.A.",
+         "codigos": "ELMD3",
+         "cnpj": "09.347.516/0001-81",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "EMBRAER S.A.",
+         "codigos": "EMBR3",
+         "cnpj": "07.689.002/0001-89",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "EMPREENDIMENTOS PAGUE MENOS S.A.",
+         "codigos": "PGMN3",
+         "cnpj": "06.626.253/0001-51",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ENAUTA PARTICIPAÇÕES S.A.",
+         "codigos": "ENAT3",
+         "cnpj": "11.669.021/0001-10",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ENERGISA S.A.",
+         "codigos": "ENGI3, ENGI4, ENGI11",
+         "cnpj": "00.864.214/0001-06",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ENEVA S.A.",
+         "codigos": "ENEV3",
+         "cnpj": "04.423.567/0001-21",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ENGIE BRASIL ENERGIA S.A.",
+         "codigos": "EGIE3",
+         "cnpj": "02.474.103/0001-19",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ENJOEI S.A.",
+         "codigos": "ENJU3",
+         "cnpj": "16.922.038/0001-51",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "EQUATORIAL ENERGIA S.A.",
+         "codigos": "EQTL3",
+         "cnpj": "03.220.438/0001-73",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ETERNIT S.A.",
+         "codigos": "ETER3",
+         "cnpj": "61.092.037/0001-81",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "EUCATEX S.A. INDÚSTRIA E COMÉRCIO",
+         "codigos": "EUCA3, EUCA4",
+         "cnpj": "56.643.018/0001-66",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "EVEN CONSTRUTORA E INCORPORADORA S.A.",
+         "codigos": "EVEN3",
+         "cnpj": "43.470.988/0001-65",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "EZ TEC EMPREENDIMENTOS E PARTICIPAÇÕES S.A.",
+         "codigos": "EZTC3",
+         "cnpj": "08.312.229/0001-73",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "FERTILIZANTES HERINGER S.A.",
+         "codigos": "FHER3",
+         "cnpj": "22.266.175/0001-88",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "FLEURY S.A.",
+         "codigos": "FLRY3",
+         "cnpj": "60.840.055/0001-31",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "FOCUS ENERGIA HOLDING PARTICIPAÇÕES S.A.",
+         "codigos": "POWE3",
+         "cnpj": "26.735.020/0001-02",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "FRAS-LE S.A.",
+         "codigos": "FRAS3",
+         "cnpj": "88.610.126/0001-29",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "GAFISA S.A.",
+         "codigos": "GFSA3",
+         "cnpj": "01.545.826/0001-07",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "GERDAU S.A.",
+         "codigos": "GGBR3, GGBR4",
+         "cnpj": "33.611.500/0001-19",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "GETNINJAS S.A.",
+         "codigos": "NINJ3",
+         "cnpj": "14.127.813/0001-51",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "GOL LINHAS AÉREAS INTELIGENTES S.A.",
+         "codigos": "GOLL4",
+         "cnpj": "06.164.253/0001-87",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "GPS PARTICIPAÇÕES E EMPREENDIMENTOS S.A.",
+         "codigos": "GGPS3",
+         "cnpj": "09.229.201/0001-30",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "GRENDENE S.A.",
+         "codigos": "GRND3",
+         "cnpj": "89.850.341/0001-60",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "GRUPO DE MODA SOMA S.A.",
+         "codigos": "SOMA3",
+         "cnpj": "10.285.590/0001-08",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "GRUPO MATEUS S.A.",
+         "codigos": "GMAT3",
+         "cnpj": "24.990.777/0001-09",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "GRUPO SBF SA",
+         "codigos": "SBFG3",
+         "cnpj": "13.217.485/0001-11",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "HAPVIDA PARTICIPAÇÕES E INVESTIMENTOS SA",
+         "codigos": "HAPV3",
+         "cnpj": "05.197.443/0001-38",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "HBR REALTY EMPREENDIMENTOS IMOBILIÁRIOS S/A",
+         "codigos": "HBRE3",
+         "cnpj": "14.785.152/0001-51",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "HELBOR EMPREENDIMENTOS S.A.",
+         "codigos": "HBOR3",
+         "cnpj": "49.263.189/0001-02",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "HIDROVIAS DO BRASIL S.A.",
+         "codigos": "HBSA3",
+         "cnpj": "12.648.327/0001-53",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "HOSPITAL MATER DEI S/A",
+         "codigos": "MATD3",
+         "cnpj": "16.676.520/0001-59",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "HYPERA S.A.",
+         "codigos": "HYPE3",
+         "cnpj": "02.932.074/0001-91",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "IGUATEMI EMPRESA DE SHOPPING CENTERS S.A.",
+         "codigos": "IGTA3",
+         "cnpj": "51.218.147/0001-93",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "INDÚSTRIAS ROMI S.A.",
+         "codigos": "ROMI3",
+         "cnpj": "56.720.428/0001-63",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "INFRACOMMERCE CXAAS S.A.",
+         "codigos": "IFCM3",
+         "cnpj": "38.546.921/0001-36",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "INSTITUTO HERMES PARDINI S.A.",
+         "codigos": "PARD3",
+         "cnpj": "19.378.769/0001-76",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "INTELBRAS S.A. INDÚSTRIA DE TELECOMUNICAÇÕES ELETRÔNICA BRASILEIRA",
+         "codigos": "INTB3",
+         "cnpj": "82.901.000/0001-27",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "INTERNATIONAL MEAL COMPANY ALIMENTAÇÃO S.A.",
+         "codigos": "MEAL3",
+         "cnpj": "17.314.329/0001-20",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "IOCHPE MAXION S.A.",
+         "codigos": "MYPK3",
+         "cnpj": "61.156.113/0001-75",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "IRANI PAPEL E EMBALAGEM S.A.",
+         "codigos": "RANI3",
+         "cnpj": "92.791.243/0001-03",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "IRB – BRASIL RESSEGUROS S.A.",
+         "codigos": "IRBR3",
+         "cnpj": "33.376.989/0001-91",
+         "banco_estruturador": "BANCO DO BRASIL"
+      },
+      {
+         "nome": "ITAÚ UNIBANCO HOLDING S.A.",
+         "codigos": "ITUB3, ITUB4",
+         "cnpj": "60.872.504/0001-23",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ITAUSA S.A.",
+         "codigos": "ITSA3, ITSA4",
+         "cnpj": "61.532.644/0001-15",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "JALLES MACHADO S.A.",
+         "codigos": "JALL3",
+         "cnpj": "02.635.522/0001-95",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "JBS S.A.",
+         "codigos": "JBSS3",
+         "cnpj": "02.916.265/0001-60",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "JHSF PARTICIPAÇÕES S.A.",
+         "codigos": "JHSF3",
+         "cnpj": "08.294.224/0001-65",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "JSL S.A.",
+         "codigos": "JSLG3",
+         "cnpj": "52.548.435/0001-79",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "KLABIN S.A.",
+         "codigos": "KLBN3, KLBN4, KLBN11",
+         "cnpj": "89.637.490/0001-45",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "KORA SAÚDE PARTICIPAÇÕES S.A.",
+         "codigos": "KRSA3",
+         "cnpj": "13.270.520/0001-66",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "LAVVI EMPREENDIMENTOS IMOBILIÁRIOS S.A.",
+         "codigos": "LAVV3",
+         "cnpj": "26.462.693/0001-28",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "LIGHT S.A.",
+         "codigos": "LIGT3",
+         "cnpj": "03.378.521/0001-75",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "LIVETECH DA BAHIA INDÚSTRIA E COMÉRCIO S/A",
+         "codigos": "LVTC3",
+         "cnpj": "05.917.486/0001-40",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "LOCALIZA RENT A CAR S.A.",
+         "codigos": "RENT3",
+         "cnpj": "16.670.085/0001-55",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "LOCAWEB SERVIÇOS DE INTERNET S.A.",
+         "codigos": "LWSA3",
+         "cnpj": "02.351.877/0001-52",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "LOG COMMERCIAL PROPERTIES",
+         "codigos": "LOGG3",
+         "cnpj": "09.041.168/0001-10",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "LOG-IN LOGÍSTICA INTERMODAL S.A.",
+         "codigos": "LOGN3",
+         "cnpj": "42.278.291/0001-24",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "LOJAS AMERICANAS S.A.",
+         "codigos": "LAME3, LAME4",
+         "cnpj": "33.014.556/0001-96",
+         "banco_estruturador": "ITAÚ UNIBANCO S.A."
+      },
+      {
+         "nome": "LOJAS QUERO-QUERO S.A.",
+         "codigos": "LJQQ3",
+         "cnpj": "96.418.264/0218-02",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "LOJAS RENNER S.A.",
+         "codigos": "LREN3",
+         "cnpj": "92.754.738/0001-62",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "LPS BRASIL – CONSULTORIA DE IMÓVEIS S.A.",
+         "codigos": "LPSB3",
+         "cnpj": "08.078.847/0001-09",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "LUPATECH S.A.",
+         "codigos": "LUPA3, LUPA11",
+         "cnpj": "89.463.822/0001-12",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "M. DIAS BRANCO S.A. INDÚSTRIA E COMÉRCIO DE ALIMENTOS",
+         "codigos": "MDIA3",
+         "cnpj": "07.206.816/0001-15",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "MAGAZINE LUIZA S.A.",
+         "codigos": "MGLU3",
+         "cnpj": "47.960.950/0001-21",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MAHLE-METAL LEVE S.A.",
+         "codigos": "LEVE3",
+         "cnpj": "60.476.884/0001-87",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MARCOPOLO S.A.",
+         "codigos": "POMO3, POMO4",
+         "cnpj": "88.611.835/0001-29",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "MARFRIG GLOBAL FOODS S.A.",
+         "codigos": "MRFG3",
+         "cnpj": "03.853.896/0001-40",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "MARISA LOJAS S.A.",
+         "codigos": "AMAR3",
+         "cnpj": "61.189.288/0001-89",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "MÉLIUZ S.A.",
+         "codigos": "CASH3",
+         "cnpj": "14.110.585/0001-07",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MELNICK DESENVOLVIMENTO IMOBILIÁRIO S.A.",
+         "codigos": "MELK3",
+         "cnpj": "12.181.987/0001-77",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "METALFRIO SOLUTIONS S.A.",
+         "codigos": "FRIO3",
+         "cnpj": "04.821.041/0001-08",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "METALÚRGICA GERDAU S.A.",
+         "codigos": "GOAU3, GOAU4",
+         "cnpj": "92.690.783/0001-09",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "METISA METALURGICA TIMBOENSE S.A.",
+         "codigos": "MTSA3, MTSA4",
+         "cnpj": "86.375.425/0001-09",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MILLS ESTRUTURAS E SERVIÇOS DE ENGENHARIA S.A.",
+         "codigos": "MILS3",
+         "cnpj": "27.093.558/0001-15",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MINERVA S.A.",
+         "codigos": "BEEF3, BEEEF11",
+         "cnpj": "67.620.377/0001-14",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MITRE REALTY EMPREENDIMENTOS E PARTICIPAÇÕES S.A.",
+         "codigos": "MTRE3",
+         "cnpj": "07.882.930/0001-65",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MMX MINERAÇÃO E METÁLICOS S.A.",
+         "codigos": "MMXM3, MMXM11",
+         "cnpj": "02.762.115/0001-49",
+         "banco_estruturador": "EMPRESA"
+      },
+      {
+         "nome": "MOBLY S.A.",
+         "codigos": "MBLY3",
+         "cnpj": "31.553.627/0001-01",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MOSAICO TECNOLOGIA AO CONSUMIDOR S.A.",
+         "codigos": "MOSI3",
+         "cnpj": "09.083.175/0001-84",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MOURA DUBEUX ENGENHARIA S/A",
+         "codigos": "MDNE3",
+         "cnpj": "12.049.631/0001-84",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MOVIDA PARTICIPAÇÕES S.A.",
+         "codigos": "MOVI3",
+         "cnpj": "21.314.559/0001-66",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "MPM CORPÓREOS S.A.",
+         "codigos": "ESPA3",
+         "cnpj": "26.659.061/0001-59",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MRV ENGENHARIA E PARTICIPAÇÕES S.A.",
+         "codigos": "MRVE3",
+         "cnpj": "08.343.492/0001-20",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "MULTILASER INDUSTRIAL S.A.",
+         "codigos": "MLAS3",
+         "cnpj": "59.717.553/0001-02",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "MULTIPLAN – EMPREENDIMENTOS IMOBILIÁRIOS S.A.",
+         "codigos": "MULT3",
+         "cnpj": "07.816.890/0001-53",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "NATURA & CO HOLDING S.A.",
+         "codigos": "NTCO3",
+         "cnpj": "32.785.497/0001-97",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "NEOENERGIA S.A.",
+         "codigos": "NEOE3",
+         "cnpj": "01.083.200/0001-18",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "NEOGRID PATICIPAÇÕES S.A.",
+         "codigos": "NGRD3",
+         "cnpj": "10.139.870/0001-08",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "NORDON INDUSTRIAS METALURGICAS S.A.",
+         "codigos": "NORD3",
+         "cnpj": "60.884.319/0001-59",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "NOTRE DAME INTERMÉDICA PARTICIPAÇÕES S.A.",
+         "codigos": "GNDI3",
+         "cnpj": "19.853.511/0001-84",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "OCEANPACT SERVIÇOS MARÍTIMOS S.A.",
+         "codigos": "OPCT3",
+         "cnpj": "09.114.805/0001-30",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ODONTOPREV S.A.",
+         "codigos": "ODPV3",
+         "cnpj": "58.119.199/0001-51",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "OI S.A.",
+         "codigos": "OIBR3, OIBR4",
+         "cnpj": "76.535.764/0001-43",
+         "banco_estruturador": "BANCO DO BRASIL"
+      },
+      {
+         "nome": "OMEGA GERAÇÃO S.A.",
+         "codigos": "OMGE3",
+         "cnpj": "09.149.503/0001-06",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ONCOCLÍNICAS DO BRASIL SERVIÇOS MÉDICOS S.A.",
+         "codigos": "ONCO3",
+         "cnpj": "12.104.241/0004-02",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "ORIZON VALORIZAÇÃO DE RESÍDUOS S.A.",
+         "codigos": "ORVR3",
+         "cnpj": "11.421.994/0001-36",
+         "banco_estruturador": "BANCO DO BRASIL"
+      },
+      {
+         "nome": "OSX BRASIL S.A.",
+         "codigos": "OSXB3",
+         "cnpj": "09.112.685/0001-32",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "OURO FINO SAÚDE ANIMAL PARTICIPAÇÕES S.A.",
+         "codigos": "OFSA3",
+         "cnpj": "20.258.278/0001-70",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "PADTEC HOLDING S.A.",
+         "codigos": "PDTC3",
+         "cnpj": "02.365.069/0001-44",
+         "banco_estruturador": "ITAUBANCO – AÇÕES"
+      },
+      {
+         "nome": "PARANAPANEMA S.A.",
+         "codigos": "PMAM3",
+         "cnpj": "60.398.369/0004-79",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "PBG S/A",
+         "codigos": "PTBL3",
+         "cnpj": "83.475.913/0001-91",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "PETRÓLEO BRASILEIRO S.A. PETROBRAS",
+         "codigos": "PETR3, PETR4",
+         "cnpj": "33.000.167/0001-01",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "PDG REALTY S.A. EMPREENDIMENTOS E PARTICIPAÇÕES",
+         "codigos": "PDGR3",
+         "cnpj": "02.950.811/0001-89",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "PET CENTER COMÉRCIO E PARTICIPAÇÕES S.A.",
+         "codigos": "PETZ3",
+         "cnpj": "18.328.118/0001-09",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "PETRO RIO S.A.",
+         "codigos": "PRIO3",
+         "cnpj": "10.629.105/0001-68",
+         "banco_estruturador": "BANCO DO BRASIL"
+      },
+      {
+         "nome": "PETRORECÔNCAVO S.A.",
+         "codigos": "RECV3",
+         "cnpj": "03.342.704/0001-30",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "PLANO E PLANO DESENVOLVIMENTO IMOBILIÁRIO S.A.",
+         "codigos": "PLPL3",
+         "cnpj": "24.230.275/0001-80",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "POMIFRUTAS S/A",
+         "codigos": "FRTA3",
+         "cnpj": "86.550.951/0001-50",
+         "banco_estruturador": "POMI FRUTAS S.A."
+      },
+      {
+         "nome": "PORTO SEGURO S.A.",
+         "codigos": "PSSA3",
+         "cnpj": "02.149.205/0001-69",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "POSITIVO TECNOLOGIA S.A.",
+         "codigos": "POSI3",
+         "cnpj": "81.243.735/0001-48",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "PRINER SERVIÇOS INDUSTRIAIS S.A.",
+         "codigos": "PRNR3",
+         "cnpj": "18.593.815/0001-97",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "PROFARMA DISTRIBUIDORA DE PRODUTOS FARMACÊUTICOS S.A.",
+         "codigos": "PFRM3",
+         "cnpj": "45.453.214/0001-51",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "QUALICORP CONSULTORIA E CORRETORA DE SEGUROS S.A.",
+         "codigos": "QUAL3",
+         "cnpj": "11.992.680/0001-93",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "RAIA DROGASIL S.A.",
+         "codigos": "RADL3",
+         "cnpj": "61.585.865/0001-51",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "RAIZEN S.A.",
+         "codigos": "RAIZ4",
+         "cnpj": "33.453.598/0001-23",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "RANDON S.A. IMPLEMENTOS E PARTICIPAÇÕES",
+         "codigos": "RAPT3, RAPT4",
+         "cnpj": "89.086.144/0001-16",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "REDE DOR SÃO LUIZ S.A.",
+         "codigos": "RDOR3",
+         "cnpj": "06.047.087/0001-39",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "RENOVA ENERGIA S.A.",
+         "codigos": "RNEW3, RNEW4, RNEW11",
+         "cnpj": "08.534.605/0001-74",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "RESTOQUE COMÉRCIO E CONFECÇÕES DE ROUPAS S.A.",
+         "codigos": "LLIS3",
+         "cnpj": "49.669.856/0001-43",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "RIO PARANAPANEMA ENERGIA S.A.",
+         "codigos": "GEPA3, GEPA4",
+         "cnpj": "02.998.301/0001-81",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "RNI NEGÓCIOS IMOBILIÁRIOS S.A.",
+         "codigos": "RDNI3",
+         "cnpj": "67.010.660/0001-24",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "ROSSI RESIDENCIAL S.A.",
+         "codigos": "RSID3",
+         "cnpj": "61.065.751/0001-80",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "RUMO S.A.",
+         "codigos": "RAIL3",
+         "cnpj": "02.387.241/0001-60",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SANTOS BRASIL PARTICIPAÇÕES S.A.",
+         "codigos": "STBP3",
+         "cnpj": "02.762.121/0001-04",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SÃO CARLOS EMPREENDIMENTOS E PARTICIPAÇÕES S.A.",
+         "codigos": "SCAR3",
+         "cnpj": "29.780.061/0001-09",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SÃO MARTINHO S.A.",
+         "codigos": "SMTO3",
+         "cnpj": "51.466.860/0001-56",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "SARAIVA LIVREIROS S.A.",
+         "codigos": "SLED3, SLED4, SLED11",
+         "cnpj": "60.500.139/0001-26",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SENDAS DISTRIBUIDORA S.A.",
+         "codigos": "ASAI3",
+         "cnpj": "06.057.223/0001-71",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SEQUOIA LOGÍSTICA E TRANSPORTES S.A.",
+         "codigos": "SEQL3",
+         "cnpj": "01.599.101/0001-93",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SER EDUCACIONAL S.A.",
+         "codigos": "SEER3",
+         "cnpj": "04.986.320/0001-13",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SCHULZ S.A.",
+         "codigos": "SHUL3, SHUL4",
+         "cnpj": "84.693.183/0001-68",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "SIMPAR S.A.",
+         "codigos": "SIMH3",
+         "cnpj": "07.415.333/0001-20",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "SINQIA S.A.",
+         "codigos": "SQIA3",
+         "cnpj": "04.065.791/0001-99",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "SLC AGRÍCOLA S.A.",
+         "codigos": "SLCE3",
+         "cnpj": "89.096.457/0001-55",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.",
+         "codigos": "SMFT3",
+         "cnpj": "07.594.978/0001-79",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SPRINGS GLOBAL PARTICIPAÇÕES S.A.",
+         "codigos": "SGPS3",
+         "cnpj": "07.718.269/0001-57",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SUL AMERICA S.A.",
+         "codigos": "SULA3, SULA4, SULA11",
+         "cnpj": "29.978.814/0001-87",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SUZANO S.A.",
+         "codigos": "SUZB3",
+         "cnpj": "16.404.287/0001-55",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "SYN PROP E TECH S.A.",
+         "codigos": "SYNE3",
+         "cnpj": "08.801.621/0001-86",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "T4F ENTRETENIMENTO S.A.",
+         "codigos": "SHOW3",
+         "cnpj": "02.860.694/0001-62",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "TAURUS ARMAS S.A.",
+         "codigos": "TASA3, TASA4",
+         "cnpj": "92.781.335/0001-02",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "TC TRADERS CLUB S.A.",
+         "codigos": "TRAD3",
+         "cnpj": "26.345.998/0001-50",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "TECHNOS S.A.",
+         "codigos": "TECN3",
+         "cnpj": "09.295.063/0001-97",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "TECNISA S.A.",
+         "codigos": "TCSA3",
+         "cnpj": "08.065.557/0001-12",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "TEGMA GESTÃO LOGÍSTICA S.A.",
+         "codigos": "TGMA3",
+         "cnpj": "02.351.144/0001-18",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "TELEFÔNICA BRASIL S.A",
+         "codigos": "VIVT3",
+         "cnpj": "02.558.157/0001-62",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "TERRA SANTA PROPRIEDADES AGRÍCOLAS S.A.",
+         "codigos": "LAND3",
+         "cnpj": "40.337.136/0001-06",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "TIM S.A.",
+         "codigos": "TIMS3",
+         "cnpj": "02.421.421/0001-11",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "TOTVS S.A.",
+         "codigos": "TOTS3",
+         "cnpj": "53.113.791/0001-22",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "TPI – TRIUNFO PARTICIPAÇÕES E INVESTIMENTOS S.A.",
+         "codigos": "TPIS3",
+         "cnpj": "03.014.553/0001-91",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "TRACK & FIELDS CO S.A.",
+         "codigos": "TFCO4",
+         "cnpj": "59.418.806/0001-47",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A",
+         "codigos": "TAEE3, TAEE4, TAEE11",
+         "cnpj": "07.859.971/0001-30",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "TRÊS TENTOS AGROINDUSTRIAL S/A",
+         "codigos": "TTEN3",
+         "cnpj": "94.813.102/0001-70",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "TRISUL S.A.",
+         "codigos": "TRIS3",
+         "cnpj": "08.811.643/0001-27",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "TUPY S.A.",
+         "codigos": "TUPY3",
+         "cnpj": "84.683.374/0001-49",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "ULTRAPAR PARTICIPAÇÕES S.A.",
+         "codigos": "UGPA3",
+         "cnpj": "33.256.439/0001-39",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "UNICASA INDÚSTRIA DE MÓVEIS S.A.",
+         "codigos": "UCAS3",
+         "cnpj": "90.441.460/0001-48",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "UNIFIQUE TELECOMUNICAÇÕES S.A.",
+         "codigos": "FIQE3",
+         "cnpj": "02.255.187/0001-08",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "UNIPAR CARBOCLORO S.A.",
+         "codigos": "UNIP3, UNIP5, UNIP6",
+         "cnpj": "33.958.695/0001-78",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "USINAS SID DE MINAS GERAIS S.A. – USIMINAS",
+         "codigos": "USIM3, USIM5, USIM6",
+         "cnpj": "60.894.730/0001-05",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "VALE S.A.",
+         "codigos": "VALE3",
+         "cnpj": "33.592.510/0001-54",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "VALID SOLUÇÕES S.A.",
+         "codigos": "VLID3, VLID11",
+         "cnpj": "33.113.309/0001-47",
+         "banco_estruturador": "BANCO DO BRASIL"
+      },
+      {
+         "nome": "VAMOS LOCAÇÃO DE CAMINHÕES, MÁQUINAS E EQUIPAMENTOS S.A.",
+         "codigos": "VAMO3",
+         "cnpj": "23.373.000/0001-32",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "VIA S.A.",
+         "codigos": "VIIA3",
+         "cnpj": "33.041.260/0652-90",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "VIBRA ENERGIA S.A.",
+         "codigos": "VBBR3",
+         "cnpj": "34.274.233/0001-02",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "VITTIA FERTILIZANTES BIOLÓGICOS S.A.",
+         "codigos": "VITT3",
+         "cnpj": "45.365.558/0001-09",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "VIVARA PARTICIPAÇÕES S.A.",
+         "codigos": "VIVA3",
+         "cnpj": "33.839.910/0001-11",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "VIVER INCORPORADORA E CONSTRUTORA S.A.",
+         "codigos": "VIVR3",
+         "cnpj": "67.571.414/0001-41",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "VULCABRAS S.A.",
+         "codigos": "VULC3",
+         "cnpj": "50.926.955/0001-42",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "WEG S.A.",
+         "codigos": "WEGE3",
+         "cnpj": "84.429.695/0001-11",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "WESTWING COMÉRCIO VAREJISTA S.A.",
+         "codigos": "WEST3",
+         "cnpj": "14.776.142/0001-50",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "WILSON SONS HOLDINGS BRASIL S.A.",
+         "codigos": "PORT3",
+         "cnpj": "33.130.691/0001-05",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      },
+      {
+         "nome": "WIZ SOLUÇÕES E CORRETAGEM DE SEGUROS S.A.",
+         "codigos": "WIZS3",
+         "cnpj": "42.278.473/0001-03",
+         "banco_estruturador": "BRADESCO"
+      },
+      {
+         "nome": "YDUQS PARTICIPAÇÕES S.A.",
+         "codigos": "YDUQ3",
+         "cnpj": "08.807.432/0001-10",
+         "banco_estruturador": "ITAÚ CORRETORA DE AÇÕES"
+      }
+   ]
+}
