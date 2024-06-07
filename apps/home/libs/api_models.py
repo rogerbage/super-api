@@ -43,9 +43,18 @@ class apiModels:
         return model
     #####################################################################
 
+
     #####################################################################
     def xlsxToCsv():
         model = reqparse.RequestParser()
         model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .csv obrigatório')
+        return model
+    #####################################################################
+
+
+    #####################################################################
+    def pdfToText():
+        model = reqparse.RequestParser()
+        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .pdf obrigatório')
         return model
     #####################################################################

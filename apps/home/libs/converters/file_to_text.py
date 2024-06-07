@@ -2,6 +2,8 @@ import docx
 import io
 import pandas as pd
 from io import BytesIO
+from PyPDF2 import PdfReader
+
 
 class file_to_text:
 
@@ -55,6 +57,22 @@ class file_to_text:
                 all_csv_text += csv_text + "\n"
 
             return all_csv_text
+        return False
+
+    #############################################################
+
+
+    #############################################################
+    def pdfToText(file):
+        if file and file.filename.endswith('.pdf'):
+            file_stream = BytesIO(file.read())
+            reader = PdfReader(file_stream)
+            concat = ""
+
+            for page in reader.pages:
+                concat += page.extract_text()
+
+            return concat
         return False
 
     #############################################################

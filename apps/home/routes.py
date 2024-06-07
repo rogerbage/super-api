@@ -255,21 +255,21 @@ class XlsxToHtml(Resource):
 
 
 #####################################################################################
-@api.route('/api/xlsx-to-csv')
-class XlsxToCsv(Resource):
+@api.route('/api/pdf-to-text')
+class PdfToText(Resource):
     
     ##########################################    
-    @api.doc(description="Converte um documento docx para texto no formato CSV.")
-    @api.doc(parser=apiModels.xlsxToCsv())
+    @api.doc(description="Converte um documento PDF para texto puro.")
+    @api.doc(parser=apiModels.pdfToText())
 
     @api.response(200, 'Sucesso.')
-    @api.response(400, 'Error converting or not xlsx')
+    @api.response(400, 'Error converting or not PDF')
 
     def post(self):
-        data = apiModels.xlsxToCsv().parse_args()
-        resposta = file_to_text.xlsxToCsv(data['file'])
+        data = apiModels.pdfToText().parse_args()
+        resposta = file_to_text.pdfToText(data['file'])
         if (not resposta):
-            return "not xlsx", 400
+            return "not PDF", 400
         return resposta, 200
     #############################################
     
