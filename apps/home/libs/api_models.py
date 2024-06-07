@@ -2,6 +2,7 @@ from flask_restx import reqparse
 from werkzeug.datastructures import FileStorage
 
 class apiModels:
+
     #####################################################################
     def basicOpenaiChat():
         modelAPI = reqparse.RequestParser()
@@ -10,12 +11,14 @@ class apiModels:
         return modelAPI
     #####################################################################
 
+
     #####################################################################
     def basicMaritalkChat():
         model = reqparse.RequestParser()
         model.add_argument('user', type=str, help='Your prompt, question, requiriment, etc. Max.: 4096 caracteres')
         return model
     #####################################################################
+
 
     #####################################################################
     def ironyClassifier():
@@ -24,6 +27,7 @@ class apiModels:
         return model
     #####################################################################
 
+
     #####################################################################
     def docxToText():
         model = reqparse.RequestParser()
@@ -31,9 +35,17 @@ class apiModels:
         return model
     #####################################################################
 
-        #####################################################################
+
+    #####################################################################
     def xlsxToHtml():
         model = reqparse.RequestParser()
         model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .xlsx obrigatório')
+        return model
+    #####################################################################
+
+    #####################################################################
+    def xlsxToCsv():
+        model = reqparse.RequestParser()
+        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .csv obrigatório')
         return model
     #####################################################################
