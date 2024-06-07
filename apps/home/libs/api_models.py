@@ -31,7 +31,7 @@ class apiModels:
     #####################################################################
     def docxToText():
         model = reqparse.RequestParser()
-        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .docx obrigatório')
+        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .docx para ser convertido')
         return model
     #####################################################################
 
@@ -39,7 +39,7 @@ class apiModels:
     #####################################################################
     def xlsxToHtml():
         model = reqparse.RequestParser()
-        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .xlsx obrigatório')
+        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .xlsx para ser convertido')
         return model
     #####################################################################
 
@@ -47,7 +47,7 @@ class apiModels:
     #####################################################################
     def xlsxToCsv():
         model = reqparse.RequestParser()
-        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .csv obrigatório')
+        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .csv para ser convertido')
         return model
     #####################################################################
 
@@ -55,6 +55,13 @@ class apiModels:
     #####################################################################
     def pdfToText():
         model = reqparse.RequestParser()
-        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .pdf obrigatório')
+        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .pdf para ser convertido')
+        return model
+    #####################################################################
+
+    #####################################################################
+    def urlToHtml():
+        model = reqparse.RequestParser()
+        model.add_argument('url', type=str, required=True, help='URL para ser escaneada')
         return model
     #####################################################################

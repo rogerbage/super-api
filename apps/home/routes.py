@@ -8,6 +8,7 @@ from apps.home.libs.chat import chats
 from apps.home.libs.api_models import apiModels
 from apps.home.libs.classifiers.figures_of_speech import figures_of_speech
 from apps.home.libs.converters.file_to_text import file_to_text
+from apps.home.libs.converters.url_converter import url_converter
 
 
 
@@ -270,6 +271,29 @@ class PdfToText(Resource):
         resposta = file_to_text.pdfToText(data['file'])
         if (not resposta):
             return "not PDF", 400
+        return resposta, 200
+    #############################################
+    
+
+##########################################################################################
+
+
+#####################################################################################
+@api.route('/api/url-to-html')
+class PdfToText(Resource):
+    
+    ##########################################    
+    @api.doc(description="Retorna o HTML renderizado de uma página Web.")
+    @api.doc(parser=apiModels.urlToHtml())
+
+    @api.response(200, 'Sucesso.')
+    @api.response(400, 'Erro ao capturar HTML')
+
+    def post(self):
+        data = apiModels.urlToHtml().parse_args()
+        resposta = url_converter.url_to_html(data['url'])
+        if (not resposta):
+            return "Erro ao capturar HTML", 400
         return resposta, 200
     #############################################
     
