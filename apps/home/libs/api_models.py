@@ -30,3 +30,10 @@ class apiModels:
         model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .docx obrigatório')
         return model
     #####################################################################
+
+        #####################################################################
+    def xlsxToHtml():
+        model = reqparse.RequestParser()
+        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .xlsx obrigatório')
+        return model
+    #####################################################################

@@ -69,3 +69,5 @@ URLObject==2.4.3
 Werkzeug==3.0.3
 WTForms==3.1.2
 xxhash==3.4.1
+pandas==2.2.2
+openpyxl==3.1.3

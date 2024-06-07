@@ -229,3 +229,26 @@ class DocxToText(Resource):
     
 
 ##########################################################################################
+
+
+#####################################################################################
+@api.route('/api/xlsx-to-html')
+class XlsxToHtml(Resource):
+    
+    ##########################################    
+    @api.doc(description="Converte um documento docx para texto puro.")
+    @api.doc(parser=apiModels.xlsxToHtml())
+
+    @api.response(200, 'Sucesso.')
+    @api.response(400, 'Error converting or not xlsx')
+
+    def post(self):
+        data = apiModels.xlsxToHtml().parse_args()
+        resposta = file_to_text.xlsxToHtml(data['file'])
+        if (not resposta):
+            return "not xlsx", 400
+        return resposta, 200
+    #############################################
+    
+
+##########################################################################################
