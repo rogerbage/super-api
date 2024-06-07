@@ -7,6 +7,7 @@ from apps.home.empresas import empresalib
 from apps.home.libs.chat import chats
 from apps.home.libs.api_models import apiModels
 from apps.home.libs.classifiers.figures_of_speech import figures_of_speech
+from apps.home.libs.converters.file_to_text import file_to_text
 
 
 
@@ -200,6 +201,27 @@ class MaritalkIronyClassifier(Resource):
     def post(self):
         data = apiModels.ironyClassifier().parse_args()
         resposta = figures_of_speech.maritalk_irony_classifier(data['phrase'])
+        return resposta, 200
+    #############################################
+    
+
+##########################################################################################
+
+
+#####################################################################################
+@api.route('/api/docx-to-text')
+class DocxToText(Resource):
+    
+    ##########################################    
+    @api.doc(description="Converte um documento docx para texto puro.")
+    @api.doc(parser=apiModels.docxToText())
+
+    @api.response(200, 'Sucesso.')
+
+    def post(self):
+        data = apiModels.docxToText().parse_args()
+        # resposta = file_to_text.docxToText(data['file'])
+        resposta = "oi"
         return resposta, 200
     #############################################
     

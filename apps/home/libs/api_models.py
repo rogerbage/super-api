@@ -16,9 +16,16 @@ class apiModels:
         return model
     #####################################################################
 
-        #####################################################################
+    #####################################################################
     def ironyClassifier():
         model = reqparse.RequestParser()
         model.add_argument('phrase', type=str, help='Your phrase to be classified.')
+        return model
+    #####################################################################
+
+    #####################################################################
+    def docxToText():
+        model = reqparse.RequestParser()
+        model.add_argument('file', type='file', location='files', required=True, help='Arquivo .docx obrigatório')
         return model
     #####################################################################
