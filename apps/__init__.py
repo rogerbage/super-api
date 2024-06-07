@@ -14,8 +14,8 @@ from flask_restx import Api
 
 db = SQLAlchemy()
 login_manager = LoginManager()
-api = Api(title='API Empresas para eStracta',
-    description='Desenvolvida como teste por Roger Borges.',)
+api = Api(title='API de ferramentas para PLN',
+    description='Desenvolvida por Roger Borges.',)
 
 
 

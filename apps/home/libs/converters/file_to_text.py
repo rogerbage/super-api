@@ -10,4 +10,4 @@ class file_to_text:
             for para in doc.paragraphs:
                 fullText.append(para.text)
             return '\n'.join(fullText)
-        return "not docx"
+        return False

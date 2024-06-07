@@ -217,10 +217,13 @@ class DocxToText(Resource):
     @api.doc(parser=apiModels.docxToText())
 
     @api.response(200, 'Sucesso.')
+    @api.response(400, 'Error converting or not docx')
 
     def post(self):
         data = apiModels.docxToText().parse_args()
         resposta = file_to_text.docxToText(data['file'])
+        if (not resposta):
+            return "not docx", 400
         return resposta, 200
     #############################################
     
