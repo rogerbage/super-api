@@ -1,4 +1,5 @@
 from flask_restx import reqparse
+from werkzeug.datastructures import FileStorage
 
 class apiModels:
     #####################################################################
@@ -26,6 +27,6 @@ class apiModels:
     #####################################################################
     def docxToText():
         model = reqparse.RequestParser()
-        model.add_argument('file', type='file', location='files', required=True, help='Arquivo .docx obrigatório')
+        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .docx obrigatório')
         return model
     #####################################################################

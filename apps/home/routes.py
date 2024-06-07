@@ -220,8 +220,7 @@ class DocxToText(Resource):
 
     def post(self):
         data = apiModels.docxToText().parse_args()
-        # resposta = file_to_text.docxToText(data['file'])
-        resposta = "oi"
+        resposta = file_to_text.docxToText(data['file'])
         return resposta, 200
     #############################################
     
