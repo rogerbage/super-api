@@ -15,13 +15,9 @@ class chats:
 
         client = OpenAI()
         messages=[
-            { "role": "system", "content": "Você é um robô trabalhando para a empresa Splenda IT. O trabalho principal é com a ferramenta Talend Open Studio. Sua principal função como robô é criar Jobs do Talend através de arquivos JSON, XML, código JAVA e Queries SQL."},
+            { "role": "system", "content": "Você é um robô especialista em processamento de texto."},
             { "role": "user", "content": input},
         ]
-        print("\n\n")
-        print(f'{messages[0]}')
-        print(messages[1]['content'])
-        print("\n\n")
 
         input_tokens = chats.count_tokens(messages)
         max_tokens = int(16000 - (input_tokens + (input_tokens*0.2)))
@@ -45,11 +41,10 @@ class chats:
                     seed=seed,
                 )
 
-
                 print(chat_completion)
 
                 resposta = chat_completion.choices[0].message.content
-
+                print(resposta)
                 return(resposta)
                                         
                 
@@ -59,7 +54,7 @@ class chats:
             except Exception as e:
                 print(f"Erro não previsto: {e}")
                 pass
-                
+        return False      
         
     ########################################################################
 

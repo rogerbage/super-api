@@ -65,3 +65,17 @@ class apiModels:
         model.add_argument('url', type=str, required=True, help='URL para ser escaneada')
         return model
     #####################################################################
+
+
+    #####################################################################
+    def chatDb():
+        model = reqparse.RequestParser()
+        model.add_argument('host', type=str, required=True, help='Host do bando de dados.')
+        model.add_argument('port', type=str, required=True, help='Host do bando de dados.')
+        model.add_argument('database', type=str, required=True, help='Nome do bando de dados.')
+        model.add_argument('user', type=str, required=True, help='Usuário do banco de dados.')
+        model.add_argument('password', type=str, required=True, help='Senha do banco de dados.')
+        model.add_argument('prompt', type=str, required=True, help='Consulta ao banco, em linguagem humana ou SQL.')
+
+        return model
+    #####################################################################

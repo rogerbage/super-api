@@ -9,7 +9,7 @@ from apps.home.libs.api_models import apiModels
 from apps.home.libs.classifiers.figures_of_speech import figures_of_speech
 from apps.home.libs.converters.file_to_text import file_to_text
 from apps.home.libs.converters.url_converter import url_converter
-
+from apps.home.libs.converters.db_converter import db_converter
 
 
 empresaModel = empresalib.getEmpresaModel()
@@ -294,6 +294,29 @@ class PdfToText(Resource):
         resposta = url_converter.url_to_html(data['url'])
         if (not resposta):
             return "Erro ao capturar HTML", 400
+        return resposta, 200
+    #############################################
+    
+
+##########################################################################################
+
+
+#####################################################################################
+@api.route('/api/chat-db')
+class chat_db(Resource):
+    
+    ##########################################    
+    @api.doc(description="Retorna uma tabela HTML com o resultado da consulta.")
+    @api.doc(parser=apiModels.chatDb())
+
+    @api.response(200, 'Sucesso.')
+    @api.response(400, 'Erro ao consultar banco')
+
+    def post(self):
+        data = apiModels.chatDb().parse_args()
+        resposta = db_converter.chat_db(data)
+        if (not resposta):
+            return "Erro ao consultar banco", 400
         return resposta, 200
     #############################################
     
