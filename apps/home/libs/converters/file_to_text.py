@@ -3,6 +3,7 @@ import io
 import pandas as pd
 from io import BytesIO
 from PyPDF2 import PdfReader
+from apps.home.libs.chat import chats
 
 
 class file_to_text:
@@ -102,3 +103,35 @@ class file_to_text:
         return text
 
     #############################################################
+
+
+    ##################################################################
+    def chatFile(data):
+        
+        text = file_to_text.fileToText(data['file'])
+        if (not text):
+            return "Invalid or empty file", 400
+        
+        file_info = {
+            'prompt': data['prompt'] ,
+            'file_text': text,
+        }
+
+        prompt_1 = (
+            f"Precisamos consultar o documento abaixo;\n"
+            f"Responda ao 'Comando' baseado no documento;\n"
+            f"Utilize apenas o documento como contexto. Evite utilizar informação externa.\n\n"
+            f"/////\n"
+            f"Comanando: \n"
+            f"{data['prompt']}\n"
+            f"/////\n\n"
+            f"/////\n"
+            f"Documento: \n"
+            f"{text}\n"
+            f"/////\n\n"
+        )
+
+        resposta = chats.basicOpenai(prompt_1)
+
+        return resposta
+    ##################################################################
