@@ -11,7 +11,7 @@ class url_converter:
 
                 page = browser.new_page()
                 page.goto(url)
-                page.wait_for_timeout(10000)  # Aguarda 10 segundos
+                page.wait_for_timeout(10000) 
 
                 html_renderizado = page.content()
                 browser.close()
