@@ -112,26 +112,41 @@ class file_to_text:
         if (not text):
             return "Invalid or empty file", 400
         
-        file_info = {
-            'prompt': data['prompt'] ,
-            'file_text': text,
-        }
 
-        prompt_1 = (
-            f"Precisamos consultar o documento abaixo;\n"
-            f"Responda ao 'Comando' baseado no documento;\n"
-            f"Utilize apenas o documento como contexto. Evite utilizar informação externa.\n\n"
-            f"/////\n"
-            f"Comanando: \n"
-            f"{data['prompt']}\n"
-            f"/////\n\n"
-            f"/////\n"
-            f"Documento: \n"
-            f"{text}\n"
-            f"/////\n\n"
-        )
+        slices = file_to_text.slice_string(text, 32000)
+        print("LEN SLICES: "+ str(len(slices)))
+        resposta = chats.modeloRefinaResposta(slices, data['prompt'])
+        # file_info = {
+        #     'prompt': data['prompt'] ,
+        #     'file_text': text,
+        # }
 
-        resposta = chats.basicOpenai(prompt_1)
+        # prompt_1 = (
+        #     f"Precisamos consultar o documento abaixo;\n"
+        #     f"Responda ao 'Comando' baseado no documento;\n"
+        #     f"Utilize apenas o documento como contexto. Evite utilizar informação externa.\n\n"
+        #     f"/////\n"
+        #     f"Comanando: \n"
+        #     f"{data['prompt']}\n"
+        #     f"/////\n\n"
+        #     f"/////\n"
+        #     f"Documento: \n"
+        #     f"{text}\n"
+        #     f"/////\n\n"
+        # )
+
+        # resposta = chats.basicOpenai(prompt_1)
 
         return resposta
+    ##################################################################
+
+
+    ##################################################################
+    def slice_string(string, max_size):
+        slices = []
+        
+        for i in range(0, len(string), max_size):
+            slices.append(string[i:i+max_size])
+        
+        return slices
     ##################################################################

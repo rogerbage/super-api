@@ -113,3 +113,43 @@ class chats:
         num_tokens += 3  # every reply is primed with <|start|>assistant<|message|>
         return num_tokens
     #######################################################################
+
+
+
+    #######################################################################
+    def modeloRefinaResposta(slices, prompt):
+        concat = ""
+        concata = []
+        melhor_resposta = ""
+
+        for slice in slices:
+            query = (
+                f"{prompt}"
+                f"```"
+                f"{slice}"
+            )
+            resposta = chats.basicOpenai(query)
+            concat = concat + resposta + "\n\n"
+            concata.append(resposta)
+            if ( len(concata) == 1):
+                melhor_resposta = resposta
+            else:
+                refina_prompt = (
+                    f"Uma pergunta foi feita para um documento grande. Dividimos o documento em várias trechos."
+                    f"No item 'Resposta Final' temos a resposta baseada nos trechos anteriores."
+                    f"Baseado na 'Pergunta' e na 'Resposta do trecho atual', vamos melhorar a 'Resposta Final."
+                    f"Faça alterações na 'Resposta Final' apenas se tiver certeza. Evite perder informações da 'Resposta Final'."
+                    f"Refine a 'Resposta Final' e adicione novas informações encontradas se forem relevantes."
+                    f"Retorne apenas o texto da 'Resposta Final' melhorada."
+                    f"\n\n"
+                    f"Pergunta: `{prompt}`"
+                    f"\n\n"
+                    f"Resposta Final: {melhor_resposta}"
+                    f"\n\n"
+                    f"Resposta do trecho atual: {resposta}"
+                )
+
+                melhor_resposta = chats.basicOpenai(refina_prompt)
+            
+        return (melhor_resposta)
+#######################################################################
