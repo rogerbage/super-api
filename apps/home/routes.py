@@ -246,3 +246,28 @@ class db_to_json(Resource):
     
 
 ##########################################################################################
+
+
+
+#####################################################################################
+@api.route('/api/file-to-text')
+class fileToText(Resource):
+    
+    ##########################################    
+    @api.doc(description="Converte um documento em texto puro. Aceita docx, xlsx e pdf. (xlsx  é convertido para html)")
+    @api.doc(parser=apiModels.fileToText())
+
+    @api.response(200, 'Sucesso.')
+    @api.response(400, 'Error accessing the file')
+
+    def post(self):
+        data = apiModels.fileToText().parse_args()
+
+        resposta = file_to_text.fileToText(data['file'])
+        if (not resposta):
+            return "Error accessing the file", 400
+        return resposta, 200
+    #############################################
+    
+
+##########################################################################################

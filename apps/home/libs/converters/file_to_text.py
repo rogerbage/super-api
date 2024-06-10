@@ -76,3 +76,29 @@ class file_to_text:
         return False
 
     #############################################################
+
+
+    #############################################################
+    def fileToText(file):
+        text = ""
+        if file:
+            if file.filename.endswith('.pdf'):
+                text = file_to_text.pdfToText(file)
+            elif file.filename.endswith('.txt'):
+                text = file.read()
+            elif file.filename.endswith('.json'):
+                text = file.read()
+            elif file.filename.endswith('.xml'):
+                text = file.read()
+            elif file.filename.endswith('.html'):
+                text = file.read()
+            elif file.filename.endswith('.csv'):
+                text = file.read()
+            elif file.filename.endswith('.docx'):
+                text = file_to_text.docxToText(file)
+            elif file.filename.endswith('.xlsx'):
+                text = file_to_text.xlsxToHtml(file) 
+
+        return text
+
+    #############################################################

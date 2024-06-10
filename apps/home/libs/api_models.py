@@ -92,3 +92,22 @@ class apiModels:
 
         return model
     #####################################################################
+
+
+    #####################################################################
+    def fileToText():
+        model = reqparse.RequestParser()
+        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .pdf, .docx, xlsx para ser extraído')
+
+        return model
+    #####################################################################
+
+
+    #####################################################################
+    def chatFile():
+        model = reqparse.RequestParser()
+        model.add_argument('file', type=FileStorage, location='files', required=True, help='Arquivo .pdf, .docx, json, xml, xlsx ou txt para ser consultado')
+        model.add_argument('prompt', type=str, required=True, help='Consulta ao documento, em linguagem humana.')
+
+        return model
+    #####################################################################
