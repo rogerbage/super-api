@@ -206,3 +206,43 @@ class chat_db(Resource):
     
 
 ##########################################################################################
+
+
+
+#####################################################################################
+@api.route('/api/db-to-json')
+class db_to_json(Resource):
+    
+    ##########################################    
+    @api.doc(description="Retorna um JSON com os principais metadados da um banco de dados.")
+    @api.doc(parser=apiModels.dbToJson())
+
+    @api.response(200, 'Sucesso.')
+    @api.response(400, 'Erro ao consultar banco')
+
+    def post(self):
+        data = apiModels.dbToJson().parse_args()
+        
+        config = {
+            'user': data['user'],
+            'password': data['password'],
+            'host': data['host'],
+            'port': data['port'],
+            'database': data['database'],
+            'raise_on_warnings': True
+        }
+        
+        conn = db_converter.connect_to_mysql(config, attempts=1)
+
+        dbString = False
+
+        if (conn['status'] == 'success'):
+            dbString = db_converter.db_to_json(conn['connection'], config['database'])
+        
+        if (not dbString):
+            return "Erro ao consultar banco", 400
+        return dbString, 200
+    #############################################
+    
+
+##########################################################################################

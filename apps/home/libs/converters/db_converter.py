@@ -7,28 +7,28 @@ import pandas as pd
 class db_converter:
 
     ###############################################################
-    def db_to_json(cnx):
+    def db_to_json(cnx, database_name):
         todas = 'error'
         db_meta = {}
         if cnx and cnx.is_connected():
             with cnx.cursor() as cursor:
-
                 cursor.execute("SHOW DATABASES")
                 databases = cursor.fetchall()
 
                 for database in databases:
-                    db_meta[database[0]] = {}
-                    cursor.execute('USE ' + database[0])
-                    cursor.execute("SHOW TABLES")
-                    tables = cursor.fetchall() 
-                    
-                    for table in tables:
-                        cursor.execute('show fields from ' + table[0])
-                        rows = cursor.fetchall() 
-                        db_meta[database[0]][table[0]] = {}
+                    if (not database_name or (database[0] == database_name)):
+                        db_meta[database[0]] = {}
+                        cursor.execute('USE ' + database[0])
+                        cursor.execute("SHOW TABLES")
+                        tables = cursor.fetchall() 
+                        
+                        for table in tables:
+                            cursor.execute('show fields from ' + table[0])
+                            rows = cursor.fetchall() 
+                            db_meta[database[0]][table[0]] = {}
                                             
                             
-        return json.dumps(db_meta)
+        return json.dumps(db_meta, indent=4)
     ###############################################################
 
 
@@ -106,7 +106,7 @@ class db_converter:
 
         if (conn['status'] == 'success'):
 
-            dbString = db_converter.db_to_json(conn['connection'])
+            dbString = db_converter.db_to_json(conn['connection'], config['database'])
 
             db_info = {
                 'database': config['database'],
