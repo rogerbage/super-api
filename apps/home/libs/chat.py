@@ -3,6 +3,8 @@ from openai import OpenAI
 import tiktoken
 import os
 import maritalk
+import json
+import time
 
 #########################################################
 class chats:
@@ -20,6 +22,7 @@ class chats:
         ]
 
         input_tokens = chats.count_tokens(messages)
+        print("\n\nINPUT TOKENS: ", input_tokens, "\n\n")
         max_tokens = int(16000 - (input_tokens + (input_tokens*0.2)))
         
         if (max_tokens < 512):
@@ -40,19 +43,18 @@ class chats:
                     messages=messages,
                     seed=seed,
                 )
-
-                print(chat_completion)
-
+                print("\nCHAT COMPLETION: ", chat_completion, "\n\n")
                 resposta = chat_completion.choices[0].message.content
-                print(resposta)
                 return(resposta)
                                         
                 
             except openai.APIError as e:
                 print(f"OpenAI API error: {e}")
+                time.sleep(tentativas)
                 pass
             except Exception as e:
                 print(f"Erro não previsto: {e}")
+                time.sleep(tentativas)
                 pass
         return False      
         
@@ -67,14 +69,21 @@ class chats:
         )
         prompt = input
 
-        response = model.generate(
-            prompt
-        )
+        tentativas = 0
+        while tentativas < 10:
+            tentativas += 1
+            try:
+                response = model.generate(
+                    prompt
+                )
+                print(response)
+                return response['answer']
+            except Exception as e:
+                print(f"Erro não previsto: {e}")
+                time.sleep(tentativas)
+                pass
 
-        print(response)
-
-        return response['answer']
-
+        return False
     ########################################################################
 
     ########################################################################
@@ -152,4 +161,61 @@ class chats:
                 melhor_resposta = chats.basicOpenai(refina_prompt)
             
         return (melhor_resposta)
+#######################################################################
+
+
+    #######################################################################
+    def modeloConcatenaResposta(slices, prompt):
+        concata = []
+        melhor_resposta = ""
+        slice_count = 0
+        for slice in slices:
+            slice_count += 1
+            chunk = {
+                "chunk": slice_count,
+                "total_chunks": len(slices),
+                "pergunta": prompt,
+                "texto": slice,  
+            }
+            query = (
+                f"Uma pergunta foi feita para um documento grande. O documento foi dividido em chunks.\n"
+                f"Responda a pergunta abaixo baseado no texto fornecido, levando em conta que o texto é uma parte do documento.\n"
+                f"Responda apenas se houver uma resposta coerente para o trecho de texto. Se não houver resposta, retorne apenas um traço ( - )\n"
+                f"\n######\n"
+                f"{json.dumps(chunk)}"
+            )
+
+            print("\n\nQUERY: ", query, "\n\n")
+
+            resposta = chats.basicOpenai(query)
+
+            print("\n\nRESPOSTA: ", resposta, "\n\n")
+
+            concata.append({
+                "chunk": slice_count,
+                "total_chunks": len(slices),
+                "resposta": resposta, 
+            })
+            
+        concat_prompt = (
+            f"Dividimos o documento em várias trechos.\n"
+            f"Para cada trecho fizemos a mesma pergunta, e registramos a resposta.\n"
+            f"As respostas são do mesmo documento, então precisamos juntar as respostas de todos os trechos.\n"
+            f"Baseado em todas as respostas, crie uma resposta única.\n"
+            f"Remova as respostas que não condizem com a pergunta."
+            f"Retorne apenas a resposta a pergunta.\n"
+            f"\n###########\n"
+            f"\nPergunta: {prompt}\n"
+            f"\n\n###########\n"
+            f"\nRespostas: "
+            f"{json.dumps(concata)}\n\n"
+        )
+
+        print("\n\nQUERY: ", concat_prompt, "\n\n")
+
+        concata_resposta = chats.basicOpenai(concat_prompt)
+            
+        print("\n\nRESPOSTA: ", concata_resposta, "\n\n")
+
+        return (concata_resposta)
 #######################################################################
