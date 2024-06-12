@@ -185,11 +185,7 @@ class chats:
                 f"{json.dumps(chunk)}"
             )
 
-            print("\n\nQUERY: ", query, "\n\n")
-
             resposta = chats.basicOpenai(query)
-
-            print("\n\nRESPOSTA: ", resposta, "\n\n")
 
             concata.append({
                 "chunk": slice_count,
@@ -211,11 +207,7 @@ class chats:
             f"{json.dumps(concata)}\n\n"
         )
 
-        print("\n\nQUERY: ", concat_prompt, "\n\n")
-
         concata_resposta = chats.basicOpenai(concat_prompt)
             
-        print("\n\nRESPOSTA: ", concata_resposta, "\n\n")
-
         return (concata_resposta)
 #######################################################################
