@@ -111,3 +111,13 @@ class apiModels:
 
         return model
     #####################################################################
+
+
+    #####################################################################
+    def chatUrl():
+        model = reqparse.RequestParser()
+        model.add_argument('url', type=str, required=True, help='URL para ser consultada.')
+        model.add_argument('prompt', type=str, required=True, help='Consulta ao documento, em linguagem humana.')
+
+        return model
+    #####################################################################

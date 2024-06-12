@@ -294,3 +294,27 @@ class chat_file(Resource):
     
 
 ##########################################################################################
+
+
+#####################################################################################
+@api.route('/api/chat-url')
+class chat_url(Resource):
+    
+    ##########################################    
+    @api.doc(description="Consulta uma URL em linguagem humana)")
+    @api.doc(parser=apiModels.chatUrl())
+
+    @api.response(200, 'Sucesso.')
+    @api.response(400, 'Error accessing the URL')
+
+    def post(self):
+        data = apiModels.chatUrl().parse_args()
+        resposta = url_converter.chatUrl(data)
+        if (not resposta):
+            return "Invalid or empty URL", 400
+
+        return resposta, 200
+    #############################################
+    
+
+##########################################################################################

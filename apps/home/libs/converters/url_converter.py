@@ -1,5 +1,6 @@
 from playwright.sync_api import sync_playwright
-
+from apps.home.libs.chat import chats
+from apps.home.libs.converters.file_to_text import file_to_text
 class url_converter:
     
     ##############################################################
@@ -20,4 +21,25 @@ class url_converter:
         except Exception as e:
             print(e)
             return False
+    ##############################################################
+
+
+    ##############################################################
+    def chatUrl(data):
+        html = url_converter.url_to_html(data['url'])
+        full_prompt = (
+            f"Aplique o 'Prompt' no 'HTML' abaixo:\n"
+            f"\n###########\n"
+            f"Prompt: {data['prompt']}"
+            f"\n###########\n"
+            f"\n##########\n"
+            f"HTML: \n"
+            f"{html}"
+            f"\n#########\n"
+        )
+
+        slices = file_to_text.slice_string(full_prompt, 8000)
+        resposta = chats.modeloConcatenaResposta(slices, data['prompt'])
+        return resposta
+
     ##############################################################
