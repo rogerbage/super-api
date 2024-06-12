@@ -3,7 +3,6 @@
 from apps.home import blueprint
 from apps import api
 from flask_restx import Resource
-from apps.home.empresas import empresalib
 from apps.home.libs.chat import chats
 from apps.home.libs.api_models import apiModels
 from apps.home.libs.classifiers.figures_of_speech import figures_of_speech
@@ -39,12 +38,12 @@ class BasicChatOpenai(Resource):
     
     ##########################################    
     @api.doc(description="Chat Básico com modelo gpt-3.5-turbo-16k")
-    @api.doc(parser=apiModels.basicOpenaiChat)
+    @api.doc(parser=apiModels.basicOpenaiChat())
 
     @api.response(200, 'Sucesso.')
 
     def post(self):
-        data = apiModels.basicOpenaiChat.parse_args()
+        data = apiModels.basicOpenaiChat().parse_args()
         resposta = chats.basicOpenai(data['user'])
         return resposta, 200
     #############################################
@@ -59,12 +58,12 @@ class BasicChatMaritalk(Resource):
     
     ##########################################    
     @api.doc(description="Chat Básico com modelo Maritalk")
-    @api.doc(parser=apiModels.basicMaritalkChat)
+    @api.doc(parser=apiModels.basicMaritalkChat())
 
     @api.response(200, 'Sucesso.')
 
     def post(self):
-        data = apiModels.basicMaritalkChat.parse_args()
+        data = apiModels.basicMaritalkChat().parse_args()
         resposta = chats.basicMaritalk(data['user'])
         return resposta, 200
     #############################################
