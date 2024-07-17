@@ -15,7 +15,7 @@ class apiModels:
     #####################################################################
     def basicMaritalkChat():
         model = reqparse.RequestParser()
-        model.add_argument('user', type=str, help='Your prompt, question, requiriment, etc. Max.: 4096 caracteres')
+        model.add_argument('prompt', type=str, help='Your prompt, question, requiriment, etc. Max.: 4096 caracteres')
         return model
     #####################################################################
 

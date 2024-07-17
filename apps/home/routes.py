@@ -64,7 +64,7 @@ class BasicChatMaritalk(Resource):
 
     def post(self):
         data = apiModels.basicMaritalkChat().parse_args()
-        resposta = chats.basicMaritalk(data['user'])
+        resposta = chats.basicMaritalk(data['prompt'])
         return resposta, 200
     #############################################
     

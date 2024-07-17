@@ -174,16 +174,17 @@ class chats:
             chunk = {
                 "chunk": slice_count,
                 "total_chunks": len(slices),
-                "pergunta": prompt,
+                "pergunta_1": prompt,
                 "texto": slice,  
             }
             query = (
                 f"Uma pergunta foi feita para um documento grande. O documento foi dividido em chunks.\n"
-                f"Responda a pergunta abaixo baseado no texto fornecido, levando em conta que o texto é uma parte do documento.\n"
+                f"Responda a pergunta_1 abaixo baseado no texto fornecido, levando em conta que o texto é uma parte do documento.\n"
                 f"Responda apenas se houver uma resposta coerente para o trecho de texto. Se não houver resposta, retorne apenas um traço ( - )\n"
                 f"\n######\n"
                 f"{json.dumps(chunk)}"
             )
+
 
             resposta = chats.basicOpenai(query)
 
@@ -199,13 +200,15 @@ class chats:
             f"As respostas são do mesmo documento, então precisamos juntar as respostas de todos os trechos.\n"
             f"Baseado em todas as respostas, crie uma resposta única.\n"
             f"Remova as respostas que não condizem com a pergunta."
-            f"Retorne apenas a resposta a pergunta.\n"
+            f"Retorne apenas a resposta a pergunta abaixo, e nada mais.\n"
             f"\n###########\n"
             f"\nPergunta: {prompt}\n"
             f"\n\n###########\n"
             f"\nRespostas: "
             f"{json.dumps(concata)}\n\n"
         )
+
+        print(concat_prompt)
 
         concata_resposta = chats.basicOpenai(concat_prompt)
             
