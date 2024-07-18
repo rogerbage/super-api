@@ -48,7 +48,7 @@ class url_converter:
 
         slices = file_to_text.slice_string(clean_html, 16000)
         # print(slices)
-        resposta = chats.modeloConcatenaResposta(slices, data['prompt'] )
+        resposta = chats.modeloRefinaResposta(slices, data['prompt'] )
         return resposta
 
     ##############################################################

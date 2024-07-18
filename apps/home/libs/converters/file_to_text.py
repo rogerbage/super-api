@@ -113,7 +113,7 @@ class file_to_text:
             return "Invalid or empty file", 400
         
         slices = file_to_text.slice_string(text, 8000)
-        resposta = chats.modeloConcatenaResposta(slices, data['prompt'])
+        resposta = chats.modeloRefinaResposta(slices, data['prompt'])
 
         return resposta
     ##################################################################
