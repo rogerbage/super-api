@@ -5,7 +5,7 @@ virtualenv env
 
 source env/bin/activate
 
-pip3 install -r requiriments.txt
+pip3 install -r requirements.txt
 
 playwright install
 
