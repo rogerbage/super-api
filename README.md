@@ -1,5 +1,5 @@
 # super-api
-API for IA and other nice tools
+API for AI and other nice tools
 
 virtualenv env
 
