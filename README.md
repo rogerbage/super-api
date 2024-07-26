@@ -1,5 +1,12 @@
 # super-api
-API for IA and other nice tools
+API for AI and other nice tools
 
-pip3 install -r requiriments.txt
+virtualenv env
+
+source env/bin/activate
+
+pip3 install -r requirements.txt
+
 playwright install
+
+flask run
